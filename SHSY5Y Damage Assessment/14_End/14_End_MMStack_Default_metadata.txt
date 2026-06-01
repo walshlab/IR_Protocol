@@ -1,0 +1,580 @@
+{
+"Summary": {
+  "MicroManagerVersion": "2.0.0",
+  "MetadataVersion": "12.0.0",
+  "ChannelGroup": "",
+  "ChNames": [
+    "Default"
+  ],
+  "AxisOrder": [
+    "channel",
+    "time",
+    "z",
+    "position"
+  ],
+  "TimeFirst": false,
+  "SlicesFirst": true,
+  "Width": 0,
+  "Height": 0,
+  "UserData": {}
+},
+"FrameKey-0-0-0": {
+  "UUID": "497ef3fc-0d37-4b6d-8ce3-5f23930a398e",
+  "Camera": "Prime BSI Express",
+  "Binning": 1,
+  "ROI": "204-278-1596-904",
+  "BitDepth": 16,
+  "ReceivedTime": "2025-07-28 11:30:53.289 -0500",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "Prime BSI Express-AcquisitionMethod": "Callbacks",
+  "Prime BSI Express-ActualInterval-ms": "101.5600",
+  "Prime BSI Express-Binning": "1x1",
+  "Prime BSI Express-CCDTemperature": "-0.2500",
+  "Prime BSI Express-CCDTemperatureSetPoint": "0.0000",
+  "Prime BSI Express-ChipName": "GS2020",
+  "Prime BSI Express-CircularBufferAutoSize": "ON",
+  "Prime BSI Express-CircularBufferEnabled": "ON",
+  "Prime BSI Express-CircularBufferFrameCount": "98",
+  "Prime BSI Express-CircularBufferFrameRecovery": "OFF",
+  "Prime BSI Express-ClearCycles": "2",
+  "Prime BSI Express-ClearMode": "Auto",
+  "Prime BSI Express-Color": "OFF",
+  "Prime BSI Express-Description": "PVCAM API device adapter",
+  "Prime BSI Express-DiskStreamingCoreSkipRatio": "1:100",
+  "Prime BSI Express-DiskStreamingEnabled": "No",
+  "Prime BSI Express-DiskStreamingPath": "",
+  "Prime BSI Express-ExposeOutMode": "Rolling Shutter",
+  "Prime BSI Express-Exposure": "100.0000",
+  "Prime BSI Express-FTCapable": "No",
+  "Prime BSI Express-FanSpeedSetpoint": "Medium",
+  "Prime BSI Express-FirmwareVersion": "25.20",
+  "Prime BSI Express-FullWellCapacity": "45000",
+  "Prime BSI Express-Gain": "1-HDR",
+  "Prime BSI Express-MetadataEnabled": "No",
+  "Prime BSI Express-Name": "PMUSBCam00",
+  "Prime BSI Express-Offset": "100",
+  "Prime BSI Express-PMode": "Normal",
+  "Prime BSI Express-PP  0 DESPECKLE BRIGHT LOW": "DESPECKLE BRIGHT LOW",
+  "Prime BSI Express-PP  1   ENABLED": "Yes",
+  "Prime BSI Express-PP  1   THRESHOLD": "120",
+  "Prime BSI Express-PP  1 DESPECKLE BRIGHT HIGH": "DESPECKLE BRIGHT HIGH",
+  "Prime BSI Express-PP  2   ENABLED": "Yes",
+  "Prime BSI Express-PP  2   MIN ADU AFFECTED": "200",
+  "Prime BSI Express-PP  2   THRESHOLD": "125",
+  "Prime BSI Express-PP  2 DESPECKLE DARK LOW": "DESPECKLE DARK LOW",
+  "Prime BSI Express-PP  3   ENABLED": "Yes",
+  "Prime BSI Express-PP  3   THRESHOLD": "80",
+  "Prime BSI Express-PP  3 DESPECKLE DARK HIGH": "DESPECKLE DARK HIGH",
+  "Prime BSI Express-PP  4   ENABLED": "Yes",
+  "Prime BSI Express-PP  4   MIN ADU AFFECTED": "200",
+  "Prime BSI Express-PP  4   THRESHOLD": "75",
+  "Prime BSI Express-PP  4 FRAME SUMMING": "FRAME SUMMING",
+  "Prime BSI Express-PP  5   COUNT": "4",
+  "Prime BSI Express-PP  5   ENABLED": "No",
+  "Prime BSI Express-PP  6 Reset": "No",
+  "Prime BSI Express-PVCAM Adapter Version": "1.3.61",
+  "Prime BSI Express-PVCAM Version": "3.10.2",
+  "Prime BSI Express-PixelType": "16bit",
+  "Prime BSI Express-Port": "CMOS",
+  "Prime BSI Express-PreampDelay": "0",
+  "Prime BSI Express-PreampOffLimit": "10000",
+  "Prime BSI Express-ReadoutRate": "100MHz 16bit",
+  "Prime BSI Express-SMARTStreamingEnabled": "No",
+  "Prime BSI Express-SMARTStreamingValues[ms]": "10.000;20.000;30.000;40.000",
+  "Prime BSI Express-ScanDirection": "Down",
+  "Prime BSI Express-ScanDirectionReset": "Yes",
+  "Prime BSI Express-ScanLineDelay": "0",
+  "Prime BSI Express-ScanLineTime": "11200.0000",
+  "Prime BSI Express-ScanMode": "Auto",
+  "Prime BSI Express-ScanWidth": "0",
+  "Prime BSI Express-SerialNumber": "A20G726009",
+  "Prime BSI Express-ShutterCloseDelay": "0",
+  "Prime BSI Express-ShutterMode": "Pre-Exposure",
+  "Prime BSI Express-ShutterOpenDelay": "0",
+  "Prime BSI Express-Timing-ClearingTimeNs": "0.0000",
+  "Prime BSI Express-Timing-ExposureTimeNs": "100005000.0000",
+  "Prime BSI Express-Timing-PostTriggerDelayNs": "11200.0000",
+  "Prime BSI Express-Timing-PreTriggerDelayNs": "0.0000",
+  "Prime BSI Express-Timing-ReadoutTimeNs": "10124000.0000",
+  "Prime BSI Express-TransposeCorrection": "0",
+  "Prime BSI Express-TransposeMirrorX": "0",
+  "Prime BSI Express-TransposeMirrorY": "0",
+  "Prime BSI Express-TransposeXY": "0",
+  "Prime BSI Express-Trigger Timeout (secs)": "10",
+  "Prime BSI Express-TriggerMode": "Internal Trigger",
+  "Prime BSI Express-X-dimension": "2048",
+  "Prime BSI Express-Y-dimension": "2048",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "Prime BSI Express",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "Prime BSI Express-AcquisitionMethod",
+    "Prime BSI Express-ActualInterval-ms",
+    "Prime BSI Express-Binning",
+    "Prime BSI Express-CCDTemperature",
+    "Prime BSI Express-CCDTemperatureSetPoint",
+    "Prime BSI Express-ChipName",
+    "Prime BSI Express-CircularBufferAutoSize",
+    "Prime BSI Express-CircularBufferEnabled",
+    "Prime BSI Express-CircularBufferFrameCount",
+    "Prime BSI Express-CircularBufferFrameRecovery",
+    "Prime BSI Express-ClearCycles",
+    "Prime BSI Express-ClearMode",
+    "Prime BSI Express-Color",
+    "Prime BSI Express-Description",
+    "Prime BSI Express-DiskStreamingCoreSkipRatio",
+    "Prime BSI Express-DiskStreamingEnabled",
+    "Prime BSI Express-DiskStreamingPath",
+    "Prime BSI Express-ExposeOutMode",
+    "Prime BSI Express-Exposure",
+    "Prime BSI Express-FTCapable",
+    "Prime BSI Express-FanSpeedSetpoint",
+    "Prime BSI Express-FirmwareVersion",
+    "Prime BSI Express-FullWellCapacity",
+    "Prime BSI Express-Gain",
+    "Prime BSI Express-MetadataEnabled",
+    "Prime BSI Express-Name",
+    "Prime BSI Express-Offset",
+    "Prime BSI Express-PMode",
+    "Prime BSI Express-PP  0 DESPECKLE BRIGHT LOW",
+    "Prime BSI Express-PP  1   ENABLED",
+    "Prime BSI Express-PP  1   THRESHOLD",
+    "Prime BSI Express-PP  1 DESPECKLE BRIGHT HIGH",
+    "Prime BSI Express-PP  2   ENABLED",
+    "Prime BSI Express-PP  2   MIN ADU AFFECTED",
+    "Prime BSI Express-PP  2   THRESHOLD",
+    "Prime BSI Express-PP  2 DESPECKLE DARK LOW",
+    "Prime BSI Express-PP  3   ENABLED",
+    "Prime BSI Express-PP  3   THRESHOLD",
+    "Prime BSI Express-PP  3 DESPECKLE DARK HIGH",
+    "Prime BSI Express-PP  4   ENABLED",
+    "Prime BSI Express-PP  4   MIN ADU AFFECTED",
+    "Prime BSI Express-PP  4   THRESHOLD",
+    "Prime BSI Express-PP  4 FRAME SUMMING",
+    "Prime BSI Express-PP  5   COUNT",
+    "Prime BSI Express-PP  5   ENABLED",
+    "Prime BSI Express-PP  6 Reset",
+    "Prime BSI Express-PVCAM Adapter Version",
+    "Prime BSI Express-PVCAM Version",
+    "Prime BSI Express-PixelType",
+    "Prime BSI Express-Port",
+    "Prime BSI Express-PreampDelay",
+    "Prime BSI Express-PreampOffLimit",
+    "Prime BSI Express-ReadoutRate",
+    "Prime BSI Express-SMARTStreamingEnabled",
+    "Prime BSI Express-SMARTStreamingValues[ms]",
+    "Prime BSI Express-ScanDirection",
+    "Prime BSI Express-ScanDirectionReset",
+    "Prime BSI Express-ScanLineDelay",
+    "Prime BSI Express-ScanLineTime",
+    "Prime BSI Express-ScanMode",
+    "Prime BSI Express-ScanWidth",
+    "Prime BSI Express-SerialNumber",
+    "Prime BSI Express-ShutterCloseDelay",
+    "Prime BSI Express-ShutterMode",
+    "Prime BSI Express-ShutterOpenDelay",
+    "Prime BSI Express-Timing-ClearingTimeNs",
+    "Prime BSI Express-Timing-ExposureTimeNs",
+    "Prime BSI Express-Timing-PostTriggerDelayNs",
+    "Prime BSI Express-Timing-PreTriggerDelayNs",
+    "Prime BSI Express-Timing-ReadoutTimeNs",
+    "Prime BSI Express-TransposeCorrection",
+    "Prime BSI Express-TransposeMirrorX",
+    "Prime BSI Express-TransposeMirrorY",
+    "Prime BSI Express-TransposeXY",
+    "Prime BSI Express-Trigger Timeout (secs)",
+    "Prime BSI Express-TriggerMode",
+    "Prime BSI Express-X-dimension",
+    "Prime BSI Express-Y-dimension",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "Prime BSI Express"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Prime BSI Express-AcquisitionMethod": {
+      "type": "STRING",
+      "scalar": "Callbacks"
+    },
+    "Prime BSI Express-ActualInterval-ms": {
+      "type": "STRING",
+      "scalar": "101.5600"
+    },
+    "Prime BSI Express-Binning": {
+      "type": "STRING",
+      "scalar": "1x1"
+    },
+    "Prime BSI Express-CCDTemperature": {
+      "type": "STRING",
+      "scalar": "-0.2500"
+    },
+    "Prime BSI Express-CCDTemperatureSetPoint": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Prime BSI Express-ChipName": {
+      "type": "STRING",
+      "scalar": "GS2020"
+    },
+    "Prime BSI Express-CircularBufferAutoSize": {
+      "type": "STRING",
+      "scalar": "ON"
+    },
+    "Prime BSI Express-CircularBufferEnabled": {
+      "type": "STRING",
+      "scalar": "ON"
+    },
+    "Prime BSI Express-CircularBufferFrameCount": {
+      "type": "STRING",
+      "scalar": "98"
+    },
+    "Prime BSI Express-CircularBufferFrameRecovery": {
+      "type": "STRING",
+      "scalar": "OFF"
+    },
+    "Prime BSI Express-ClearCycles": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "Prime BSI Express-ClearMode": {
+      "type": "STRING",
+      "scalar": "Auto"
+    },
+    "Prime BSI Express-Color": {
+      "type": "STRING",
+      "scalar": "OFF"
+    },
+    "Prime BSI Express-Description": {
+      "type": "STRING",
+      "scalar": "PVCAM API device adapter"
+    },
+    "Prime BSI Express-DiskStreamingCoreSkipRatio": {
+      "type": "STRING",
+      "scalar": "1:100"
+    },
+    "Prime BSI Express-DiskStreamingEnabled": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Express-DiskStreamingPath": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Prime BSI Express-ExposeOutMode": {
+      "type": "STRING",
+      "scalar": "Rolling Shutter"
+    },
+    "Prime BSI Express-Exposure": {
+      "type": "STRING",
+      "scalar": "100.0000"
+    },
+    "Prime BSI Express-FTCapable": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Express-FanSpeedSetpoint": {
+      "type": "STRING",
+      "scalar": "Medium"
+    },
+    "Prime BSI Express-FirmwareVersion": {
+      "type": "STRING",
+      "scalar": "25.20"
+    },
+    "Prime BSI Express-FullWellCapacity": {
+      "type": "STRING",
+      "scalar": "45000"
+    },
+    "Prime BSI Express-Gain": {
+      "type": "STRING",
+      "scalar": "1-HDR"
+    },
+    "Prime BSI Express-MetadataEnabled": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Express-Name": {
+      "type": "STRING",
+      "scalar": "PMUSBCam00"
+    },
+    "Prime BSI Express-Offset": {
+      "type": "STRING",
+      "scalar": "100"
+    },
+    "Prime BSI Express-PMode": {
+      "type": "STRING",
+      "scalar": "Normal"
+    },
+    "Prime BSI Express-PP  0 DESPECKLE BRIGHT LOW": {
+      "type": "STRING",
+      "scalar": "DESPECKLE BRIGHT LOW"
+    },
+    "Prime BSI Express-PP  1   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Express-PP  1   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "120"
+    },
+    "Prime BSI Express-PP  1 DESPECKLE BRIGHT HIGH": {
+      "type": "STRING",
+      "scalar": "DESPECKLE BRIGHT HIGH"
+    },
+    "Prime BSI Express-PP  2   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Express-PP  2   MIN ADU AFFECTED": {
+      "type": "STRING",
+      "scalar": "200"
+    },
+    "Prime BSI Express-PP  2   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "125"
+    },
+    "Prime BSI Express-PP  2 DESPECKLE DARK LOW": {
+      "type": "STRING",
+      "scalar": "DESPECKLE DARK LOW"
+    },
+    "Prime BSI Express-PP  3   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Express-PP  3   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "80"
+    },
+    "Prime BSI Express-PP  3 DESPECKLE DARK HIGH": {
+      "type": "STRING",
+      "scalar": "DESPECKLE DARK HIGH"
+    },
+    "Prime BSI Express-PP  4   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Express-PP  4   MIN ADU AFFECTED": {
+      "type": "STRING",
+      "scalar": "200"
+    },
+    "Prime BSI Express-PP  4   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "75"
+    },
+    "Prime BSI Express-PP  4 FRAME SUMMING": {
+      "type": "STRING",
+      "scalar": "FRAME SUMMING"
+    },
+    "Prime BSI Express-PP  5   COUNT": {
+      "type": "STRING",
+      "scalar": "4"
+    },
+    "Prime BSI Express-PP  5   ENABLED": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Express-PP  6 Reset": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Express-PVCAM Adapter Version": {
+      "type": "STRING",
+      "scalar": "1.3.61"
+    },
+    "Prime BSI Express-PVCAM Version": {
+      "type": "STRING",
+      "scalar": "3.10.2"
+    },
+    "Prime BSI Express-PixelType": {
+      "type": "STRING",
+      "scalar": "16bit"
+    },
+    "Prime BSI Express-Port": {
+      "type": "STRING",
+      "scalar": "CMOS"
+    },
+    "Prime BSI Express-PreampDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-PreampOffLimit": {
+      "type": "STRING",
+      "scalar": "10000"
+    },
+    "Prime BSI Express-ReadoutRate": {
+      "type": "STRING",
+      "scalar": "100MHz 16bit"
+    },
+    "Prime BSI Express-SMARTStreamingEnabled": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Express-SMARTStreamingValues[ms]": {
+      "type": "STRING",
+      "scalar": "10.000;20.000;30.000;40.000"
+    },
+    "Prime BSI Express-ScanDirection": {
+      "type": "STRING",
+      "scalar": "Down"
+    },
+    "Prime BSI Express-ScanDirectionReset": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Express-ScanLineDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-ScanLineTime": {
+      "type": "STRING",
+      "scalar": "11200.0000"
+    },
+    "Prime BSI Express-ScanMode": {
+      "type": "STRING",
+      "scalar": "Auto"
+    },
+    "Prime BSI Express-ScanWidth": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-SerialNumber": {
+      "type": "STRING",
+      "scalar": "A20G726009"
+    },
+    "Prime BSI Express-ShutterCloseDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-ShutterMode": {
+      "type": "STRING",
+      "scalar": "Pre-Exposure"
+    },
+    "Prime BSI Express-ShutterOpenDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-Timing-ClearingTimeNs": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Prime BSI Express-Timing-ExposureTimeNs": {
+      "type": "STRING",
+      "scalar": "100005000.0000"
+    },
+    "Prime BSI Express-Timing-PostTriggerDelayNs": {
+      "type": "STRING",
+      "scalar": "11200.0000"
+    },
+    "Prime BSI Express-Timing-PreTriggerDelayNs": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Prime BSI Express-Timing-ReadoutTimeNs": {
+      "type": "STRING",
+      "scalar": "10124000.0000"
+    },
+    "Prime BSI Express-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Express-Trigger Timeout (secs)": {
+      "type": "STRING",
+      "scalar": "10"
+    },
+    "Prime BSI Express-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal Trigger"
+    },
+    "Prime BSI Express-X-dimension": {
+      "type": "STRING",
+      "scalar": "2048"
+    },
+    "Prime BSI Express-Y-dimension": {
+      "type": "STRING",
+      "scalar": "2048"
+    }
+  },
+  "FileName": "14_End_MMStack_Default.ome.tif"
+}
+}
